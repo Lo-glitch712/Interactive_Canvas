@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  canvas {
+    border: 2px solid #000;
+    background-color: #fff;
+
+}
+
+#deleteButton {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block; /* Ensure it behaves as a block element */
+    align-self: center; /* Center the button horizontally */
+}
+
+
